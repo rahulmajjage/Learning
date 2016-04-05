@@ -1,3 +1,5 @@
 # Game over
-print ("Game over")
-input("\n \n Press the enter key to exit.")
+class test:
+    def __init__(self):
+        print ("game over")
+
