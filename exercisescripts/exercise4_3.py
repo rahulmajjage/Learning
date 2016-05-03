@@ -28,7 +28,7 @@ print (\
     """)
 print ("The Jumbled word is: ", jumble)
 guess = input ("\nGuess the word: or press enter for hint: ")
-#guess = guess.lower ()
+guess = guess.lower()
 count = 0
 while (guess == ""):
     if correct == WORDS[0]:
@@ -56,7 +56,7 @@ while (guess == ""):
         guess = input ("\nGuess the word: ")
         guess = guess.lower ()
         count+=1
-       
+guess = guess.lower ()       
 while (guess != correct):
     print ("I am sorry Wrong Guess, Try again\n\n")
     guess = input ("\nGuess the word: ")

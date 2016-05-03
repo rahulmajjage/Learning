@@ -47,7 +47,7 @@ for i in range (5):
 
 guess = input ("\nGuess the word: ")
 guess = guess.lower ()
-while (guess != word) and (guess != ""):
+while (guess != word) or (guess == ""):
     print ("I am sorry Wrong Guess, Try again\n\n")
     guess = input ("\nGuess the word: ")
     guess = guess.lower ()
